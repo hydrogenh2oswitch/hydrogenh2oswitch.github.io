@@ -5,22 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hydrogen Switch – Free Hydration Upgrade Guide</title>
 
-  <!-- Sender Script -->
-  <script>
-    (function (s, e, n, d, er) {
-      s["Sender"] = er;
-      s[er] = s[er] || function () {
-        (s[er].q = s[er].q || []).push(arguments);
-      }, s[er].l = 1 * new Date();
-      var a = e.createElement(n),
-          m = e.getElementsByTagName(n)[0];
-      a.async = 1;
-      a.src = d;
-      m.parentNode.insertBefore(a, m);
-    })(window, document, "script", "https://cdn.sender.net/accounts_resources/universal.js", "sender");
-    sender("5caa35a87c3785");
-  </script>
-
   <style>
     body {
       margin: 0;
@@ -67,14 +51,18 @@
       border-radius: 12px;
     }
 
-    .sender-form-field {
+    .iframe-container {
+      width: 100%;
       display: flex;
       justify-content: center;
-      width: 100%;
     }
 
-    .sender-form-field > div {
-      width: 100% !important;
+    .iframe-container iframe {
+      width: 100%;
+      max-width: 420px;
+      height: 450px;
+      border: none;
+      border-radius: 10px;
     }
 
     .note {
@@ -123,7 +111,7 @@
   <div class="hero">
     <h1>Upgrade Your Hydration in 5 Minutes a Day</h1>
 
-    <!-- ✅ PRODUCT IMAGE -->
+    <!-- PRODUCT IMAGE -->
     <div class="product-image">
       <img src="./bottle.png" alt="Hydrogen Water Bottle">
     </div>
@@ -133,7 +121,14 @@
     </p>
 
     <div class="cta-box">
-      <div class="sender-form-field" data-sender-form-id="azpgm2"></div>
+
+      <!-- ✅ SYSTEME.IO EMBED -->
+      <div class="iframe-container">
+        <iframe 
+          src="https://vibevision831.systeme.io/588ed2b8">
+        </iframe>
+      </div>
+
       <div class="note">Free guide. No spam.</div>
     </div>
   </div>
